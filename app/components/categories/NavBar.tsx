@@ -54,11 +54,7 @@ export default function NavBar() {
           aria-label="SF Homepage"
           className="inline-block mr-4 focus-visible:outline focus-visible:outline-offset focus-visible:rounded-sm shrink-0"
         >
-          <img
-            src="https://storage.googleapis.com/sfui_docs_artifacts_bucket_public/production/vsf_logo_white.svg"
-            alt="Sf Logo"
-            className="w-[175px] md:h-6 md:w-[176px] lg:w-[12.5rem] lg:h-[1.75rem]"
-          />
+        <h3 className='font-bold'> Your company</h3>
         </a>
         <SfButton variant="tertiary" square className="md:hidden text-white" aria-label="Search">
           <SfIconSearch />
